@@ -44,7 +44,7 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"true",
 			"timelineColor":"0x63599f"}},
-	"TransitionIdCounter":"400",
+	"TransitionIdCounter":"415",
 	"viewStartMs":"-25",
 	"pref__general__AutoKeyframePropertiesArmed":"true",
 	"symbol_Down-level":{
@@ -357,7 +357,7 @@
 	"PreloadAudio":"auto",
 	"CompZoomFactor":"100",
 	"StageZoomFactor":"200",
-	"pref__general__TimelineSnapEnabled":"false",
+	"pref__general__TimelineSnapEnabled":"true",
 	"pixelsPerMs":"0.2",
 	"viewStartY":"501",
 	"usedBOM":"false",
