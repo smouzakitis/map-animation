@@ -31,10 +31,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.getSymbol("Korinthos").$("txtCityName").html("Κόρινθος");
          sym.getSymbol("Megalopoli").$("txtCityName").html("Μεγαλόπολη");
          sym.getSymbol("Laurio").$("txtCityName").html("Λαύριο");
-         sym.getSymbol("Argyroupoli").$("txtCityName").html("Αργυρούπολη");
+         sym.getSymbol("Argyroupoli").$("txtCityName").html("Αργυ/πολη");
          sym.getSymbol("Larimna").$("txtCityName").html("Λάρυμνα");
          sym.getSymbol("Aliveri").$("txtCityName").html("Αλιβέρι");
-         sym.getSymbol("Koumoundouros").$("txtCityName").html("Κουμουνδούρος");
+         sym.getSymbol("Koumoundouros").$("txtCityName").html("Κουμου/ρος");
          sym.getSymbol("Acharnes").$("txtCityName").html("Αχαρνές");
          sym.getSymbol("Agios_Stefanos").$("txtCityName").html("Αγ.Στέφανος");
          sym.getSymbol("Pallini").$("txtCityName").html("Παλλήνη");

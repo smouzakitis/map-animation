@@ -151,47 +151,80 @@ var symbols = {
             symbolInstances: [
             {
                 id: 'Kardia',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Amyntaio',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Larisa',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Agios_Stefanos',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'AgDimitrios',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Aliveri',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Koumoundouros',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Distomo',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Lagkadas',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Laurio',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Filippoi',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Pallini',
@@ -202,11 +235,17 @@ var symbols = {
             },
             {
                 id: 'Meliti',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Argyroupoli',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Megalopoli',
@@ -217,19 +256,31 @@ var symbols = {
             },
             {
                 id: 'Korinthos',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Axeloos',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Larimna',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Trikala',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Lines_Flashing',
@@ -240,15 +291,24 @@ var symbols = {
             },
             {
                 id: 'Thesaloniki',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'NeoSanta',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             },
             {
                 id: 'Acharnes',
-                symbolName: 'City'
+                symbolName: 'City',
+                autoPlay: {
+
+                }
             }
             ]
         },
@@ -266,14 +326,6 @@ var symbols = {
                 ["style", "left", '20px'],
                 ["style", "top", '23px']
             ],
-            "${_NeoSanta}": [
-                ["style", "left", '187px'],
-                ["style", "top", '-304px']
-            ],
-            "${_Filippoi}": [
-                ["style", "left", '49px'],
-                ["style", "top", '-295px']
-            ],
             "${_Larimna}": [
                 ["style", "left", '-35px'],
                 ["style", "top", '-45px']
@@ -290,19 +342,17 @@ var symbols = {
                 ["style", "left", '-72px'],
                 ["style", "top", '30px']
             ],
-            "${_Kardia}": [
-                ["style", "left", '-147px'],
-                ["style", "top", '-227px']
+            "${_NeoSanta}": [
+                ["style", "left", '187px'],
+                ["style", "top", '-304px']
             ],
             "${_Trikala}": [
                 ["style", "left", '-140px'],
                 ["style", "top", '-143px']
             ],
-            "${_Stage}": [
-                ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '550px'],
-                ["style", "height", '700px'],
-                ["style", "overflow", 'hidden']
+            "${_Koumoundouros}": [
+                ["style", "left", '-9px'],
+                ["style", "top", '1px']
             ],
             "${_GreekMap_Map_Only5}": [
                 ["style", "top", '8px'],
@@ -317,13 +367,21 @@ var symbols = {
                 ["style", "left", '-156px'],
                 ["style", "top", '-264px']
             ],
+            "${_Agios_Stefanos}": [
+                ["style", "left", '20px'],
+                ["style", "top", '-6px']
+            ],
+            "${_Pallini}": [
+                ["style", "left", '20px'],
+                ["style", "top", '8px']
+            ],
             "${_Laurio}": [
                 ["style", "left", '34px'],
                 ["style", "top", '23px']
             ],
-            "${_Amyntaio}": [
-                ["style", "left", '-156px'],
-                ["style", "top", '-249px']
+            "${_Kardia}": [
+                ["style", "left", '-147px'],
+                ["style", "top", '-227px']
             ],
             "${_Axeloos}": [
                 ["style", "left", '-170px'],
@@ -337,17 +395,19 @@ var symbols = {
                 ["style", "left", '-93px'],
                 ["style", "top", '-151px']
             ],
-            "${_Pallini}": [
-                ["style", "left", '20px'],
-                ["style", "top", '8px']
+            "${_Stage}": [
+                ["color", "background-color", 'rgba(255,255,255,1)'],
+                ["style", "overflow", 'hidden'],
+                ["style", "height", '700px'],
+                ["style", "width", '550px']
             ],
-            "${_Agios_Stefanos}": [
-                ["style", "left", '20px'],
-                ["style", "top", '-6px']
+            "${_Amyntaio}": [
+                ["style", "left", '-156px'],
+                ["style", "top", '-249px']
             ],
-            "${_Koumoundouros}": [
-                ["style", "left", '-9px'],
-                ["style", "top", '1px']
+            "${_Filippoi}": [
+                ["style", "left", '49px'],
+                ["style", "top", '-295px']
             ],
             "${_Thesaloniki}": [
                 ["style", "left", '-72px'],
@@ -441,12 +501,13 @@ var symbols = {
                 ["transform", "scaleY", '0'],
                 ["style", "height", '67px'],
                 ["color", "border-color", 'rgba(255,255,255,1.00)'],
-                ["style", "display", 'none'],
-                ["style", "border-width", '5px']
+                ["style", "border-width", '5px'],
+                ["style", "display", 'none']
             ],
             "${_txtCityName}": [
                 ["style", "top", '335px'],
                 ["style", "text-align", 'center'],
+                ["style", "font-size", '12px'],
                 ["style", "display", 'none'],
                 ["style", "opacity", '0'],
                 ["style", "left", '322px'],
@@ -462,22 +523,14 @@ var symbols = {
                 ["style", "height", '0px'],
                 ["style", "width", '0px']
             ],
-            "${_cityPoint}": [
-                ["color", "background-color", 'rgba(188,59,58,1.00)'],
-                ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65098)'],
-                ["subproperty", "boxShadow.blur", '3px'],
-                ["transform", "scaleX", '0'],
-                ["style", "border-style", 'solid'],
-                ["style", "left", '310px'],
-                ["style", "width", '5px'],
-                ["style", "top", '377px'],
-                ["style", "border-width", '1px'],
-                ["transform", "scaleY", '0'],
-                ["subproperty", "boxShadow.offsetV", '1px'],
-                ["style", "height", '5px'],
-                ["color", "border-color", 'rgba(255,255,255,1.00)'],
-                ["subproperty", "boxShadow.offsetH", '1px'],
-                ["style", "cursor", 'pointer']
+            "${_txtMW}": [
+                ["style", "top", '260px'],
+                ["style", "text-align", 'center'],
+                ["style", "font-size", '12px'],
+                ["style", "display", 'none'],
+                ["style", "opacity", '0'],
+                ["style", "left", '322px'],
+                ["style", "width", '83px']
             ],
             "${_InfoBubbleBack}": [
                 ["color", "background-color", 'rgba(105,108,115,1.00)'],
@@ -489,16 +542,25 @@ var symbols = {
                 ["transform", "scaleY", '0'],
                 ["style", "height", '67px'],
                 ["color", "border-color", 'rgba(105,108,115,1.00)'],
-                ["style", "display", 'none'],
-                ["style", "border-width", '5px']
+                ["style", "border-width", '5px'],
+                ["style", "display", 'none']
             ],
-            "${_txtMW}": [
-                ["style", "top", '260px'],
-                ["style", "text-align", 'center'],
-                ["style", "display", 'none'],
-                ["style", "opacity", '0'],
-                ["style", "left", '322px'],
-                ["style", "width", '83px']
+            "${_cityPoint}": [
+                ["color", "background-color", 'rgba(188,59,58,1.00)'],
+                ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65098)'],
+                ["style", "cursor", 'pointer'],
+                ["transform", "scaleX", '0'],
+                ["style", "border-style", 'solid'],
+                ["style", "left", '310px'],
+                ["style", "width", '5px'],
+                ["style", "top", '377px'],
+                ["style", "border-width", '1px'],
+                ["transform", "scaleY", '0'],
+                ["color", "border-color", 'rgba(255,255,255,1.00)'],
+                ["style", "height", '5px'],
+                ["subproperty", "boxShadow.offsetV", '1px'],
+                ["subproperty", "boxShadow.offsetH", '1px'],
+                ["subproperty", "boxShadow.blur", '3px']
             ]
         }
     },
@@ -524,27 +586,27 @@ var symbols = {
                 { id: "eid377", tween: [ "style", "${_txtCityName}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0 },
                 { id: "eid366", tween: [ "style", "${_txtMW}", "opacity", '1', { fromValue: '0'}], position: 1000, duration: 235 },
                 { id: "eid367", tween: [ "style", "${_txtMW}", "opacity", '0', { fromValue: '1'}], position: 1500, duration: 250 },
-                { id: "eid364", tween: [ "style", "${_txtMW}", "top", '295px', { fromValue: '260px'}], position: 1000, duration: 235 },
-                { id: "eid365", tween: [ "style", "${_txtMW}", "top", '260px', { fromValue: '295px'}], position: 1500, duration: 250 },
+                { id: "eid350", tween: [ "transform", "${_InfoBubble}", "scaleX", '1.1', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
+                { id: "eid269", tween: [ "transform", "${_InfoBubble}", "scaleX", '0', { fromValue: '1.1'}], position: 1500, duration: 250, easing: "easeOutQuad" },
                 { id: "eid371", tween: [ "style", "${_InfoBubbleBack}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0, easing: "easeOutQuad" },
                 { id: "eid372", tween: [ "style", "${_InfoBubbleBack}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0, easing: "easeOutQuad" },
                 { id: "eid379", tween: [ "style", "${_InfoBubbleBack}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0, easing: "easeOutQuad" },
                 { id: "eid353", tween: [ "transform", "${_InfoBubbleBack}", "scaleY", '1.2', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
                 { id: "eid302", tween: [ "transform", "${_InfoBubbleBack}", "scaleY", '0', { fromValue: '1.2'}], position: 1500, duration: 250, easing: "easeOutQuad" },
-                { id: "eid345", tween: [ "style", "${_txtCityName}", "top", '313px', { fromValue: '335px'}], position: 1000, duration: 235 },
-                { id: "eid363", tween: [ "style", "${_txtCityName}", "top", '330px', { fromValue: '313px'}], position: 1500, duration: 250 },
+                { id: "eid364", tween: [ "style", "${_txtMW}", "top", '295px', { fromValue: '260px'}], position: 1000, duration: 235 },
+                { id: "eid365", tween: [ "style", "${_txtMW}", "top", '260px', { fromValue: '295px'}], position: 1500, duration: 250 },
+                { id: "eid352", tween: [ "transform", "${_InfoBubbleBack}", "scaleX", '1.2', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
+                { id: "eid301", tween: [ "transform", "${_InfoBubbleBack}", "scaleX", '0', { fromValue: '1.2'}], position: 1500, duration: 250, easing: "easeOutQuad" },
                 { id: "eid368", tween: [ "style", "${_txtMW}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid375", tween: [ "style", "${_txtMW}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
                 { id: "eid376", tween: [ "style", "${_txtMW}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0 },
-                { id: "eid352", tween: [ "transform", "${_InfoBubbleBack}", "scaleX", '1.2', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
-                { id: "eid301", tween: [ "transform", "${_InfoBubbleBack}", "scaleX", '0', { fromValue: '1.2'}], position: 1500, duration: 250, easing: "easeOutQuad" },
                 { id: "eid64", tween: [ "transform", "${_cityPoint}", "scaleY", '3', { fromValue: '0'}], position: 0, duration: 370, easing: "easeOutQuad" },
                 { id: "eid65", tween: [ "transform", "${_cityPoint}", "scaleY", '1', { fromValue: '3'}], position: 370, duration: 130, easing: "easeOutCubic" },
                 { id: "eid370", tween: [ "style", "${_InfoBubble}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0, easing: "easeOutQuad" },
                 { id: "eid373", tween: [ "style", "${_InfoBubble}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0, easing: "easeOutQuad" },
                 { id: "eid378", tween: [ "style", "${_InfoBubble}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0, easing: "easeOutQuad" },
-                { id: "eid350", tween: [ "transform", "${_InfoBubble}", "scaleX", '1.1', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
-                { id: "eid269", tween: [ "transform", "${_InfoBubble}", "scaleX", '0', { fromValue: '1.1'}], position: 1500, duration: 250, easing: "easeOutQuad" }            ]
+                { id: "eid345", tween: [ "style", "${_txtCityName}", "top", '313px', { fromValue: '335px'}], position: 1000, duration: 235 },
+                { id: "eid363", tween: [ "style", "${_txtCityName}", "top", '330px', { fromValue: '313px'}], position: 1500, duration: 250 }            ]
         }
     }
 },
@@ -561,10 +623,10 @@ var symbols = {
     content: {
             dom: [
                 {
-                    rect: ['0px', '0px', '355px', '373px', 'auto', 'auto'],
+                    type: 'image',
                     id: 'lines',
                     opacity: 0.008130081300813,
-                    type: 'image',
+                    rect: ['0px', '0px', '355px', '373px', 'auto', 'auto'],
                     fill: ['rgba(0,0,0,0)', 'images/lines.png', '0px', '0px']
                 }
             ],
