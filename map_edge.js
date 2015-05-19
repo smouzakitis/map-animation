@@ -379,9 +379,9 @@ var symbols = {
                 ["style", "left", '34px'],
                 ["style", "top", '23px']
             ],
-            "${_Kardia}": [
-                ["style", "left", '-147px'],
-                ["style", "top", '-227px']
+            "${_Amyntaio}": [
+                ["style", "left", '-156px'],
+                ["style", "top", '-249px']
             ],
             "${_Axeloos}": [
                 ["style", "left", '-170px'],
@@ -401,9 +401,9 @@ var symbols = {
                 ["style", "height", '700px'],
                 ["style", "width", '550px']
             ],
-            "${_Amyntaio}": [
-                ["style", "left", '-156px'],
-                ["style", "top", '-249px']
+            "${_Kardia}": [
+                ["style", "left", '-147px'],
+                ["style", "top", '-227px']
             ],
             "${_Filippoi}": [
                 ["style", "left", '49px'],
@@ -506,6 +506,7 @@ var symbols = {
             ],
             "${_txtCityName}": [
                 ["style", "top", '335px'],
+                ["style", "clip", [0,83,0,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
                 ["style", "text-align", 'center'],
                 ["style", "font-size", '12px'],
                 ["style", "display", 'none'],
@@ -525,6 +526,7 @@ var symbols = {
             ],
             "${_txtMW}": [
                 ["style", "top", '260px'],
+                ["style", "clip", [14.5,83,44,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
                 ["style", "text-align", 'center'],
                 ["style", "font-size", '12px'],
                 ["style", "display", 'none'],
@@ -548,10 +550,10 @@ var symbols = {
             "${_cityPoint}": [
                 ["color", "background-color", 'rgba(188,59,58,1.00)'],
                 ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65098)'],
-                ["style", "cursor", 'pointer'],
+                ["style", "left", '310px'],
                 ["transform", "scaleX", '0'],
                 ["style", "border-style", 'solid'],
-                ["style", "left", '310px'],
+                ["style", "cursor", 'pointer'],
                 ["style", "width", '5px'],
                 ["style", "top", '377px'],
                 ["style", "border-width", '1px'],
@@ -579,22 +581,31 @@ var symbols = {
                 { id: "eid63", tween: [ "transform", "${_cityPoint}", "scaleX", '1', { fromValue: '3'}], position: 370, duration: 130, easing: "easeOutCubic" },
                 { id: "eid342", tween: [ "style", "${_txtCityName}", "opacity", '1', { fromValue: '0'}], position: 1000, duration: 235 },
                 { id: "eid362", tween: [ "style", "${_txtCityName}", "opacity", '0', { fromValue: '1'}], position: 1500, duration: 250 },
-                { id: "eid351", tween: [ "transform", "${_InfoBubble}", "scaleY", '1.1', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
-                { id: "eid270", tween: [ "transform", "${_InfoBubble}", "scaleY", '0', { fromValue: '1.1'}], position: 1500, duration: 250, easing: "easeOutQuad" },
+                { id: "eid350", tween: [ "transform", "${_InfoBubble}", "scaleX", '1.1', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
+                { id: "eid269", tween: [ "transform", "${_InfoBubble}", "scaleX", '0', { fromValue: '1.1'}], position: 1500, duration: 250, easing: "easeOutQuad" },
                 { id: "eid369", tween: [ "style", "${_txtCityName}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid374", tween: [ "style", "${_txtCityName}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0 },
                 { id: "eid377", tween: [ "style", "${_txtCityName}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0 },
+                { id: "eid351", tween: [ "transform", "${_InfoBubble}", "scaleY", '1.1', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
+                { id: "eid270", tween: [ "transform", "${_InfoBubble}", "scaleY", '0', { fromValue: '1.1'}], position: 1500, duration: 250, easing: "easeOutQuad" },
+                { id: "eid393", tween: [ "style", "${_txtMW}", "clip", [6,83,44,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [14.5,83,44,0]}], position: 1120, duration: 35 },
+                { id: "eid392", tween: [ "style", "${_txtMW}", "clip", [0,83,44,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [6,83,44,0]}], position: 1155, duration: 80 },
+                { id: "eid398", tween: [ "style", "${_txtMW}", "clip", [9.5,83,44,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [7,83,44,0]}], position: 1535, duration: 25 },
+                { id: "eid399", tween: [ "style", "${_txtMW}", "clip", [17,83,44,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [9.5,83,44,0]}], position: 1560, duration: 30 },
                 { id: "eid366", tween: [ "style", "${_txtMW}", "opacity", '1', { fromValue: '0'}], position: 1000, duration: 235 },
                 { id: "eid367", tween: [ "style", "${_txtMW}", "opacity", '0', { fromValue: '1'}], position: 1500, duration: 250 },
-                { id: "eid350", tween: [ "transform", "${_InfoBubble}", "scaleX", '1.1', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
-                { id: "eid269", tween: [ "transform", "${_InfoBubble}", "scaleX", '0', { fromValue: '1.1'}], position: 1500, duration: 250, easing: "easeOutQuad" },
+                { id: "eid389", tween: [ "style", "${_txtCityName}", "clip", [0,83,11,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,83,0,0]}], position: 1105, duration: 25 },
+                { id: "eid388", tween: [ "style", "${_txtCityName}", "clip", [0,83,44,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,83,11,0]}], position: 1130, duration: 100 },
+                { id: "eid394", tween: [ "style", "${_txtCityName}", "clip", [0,83,8.5,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,83,44,0]}], position: 1500, duration: 45 },
+                { id: "eid395", tween: [ "style", "${_txtCityName}", "clip", [0,83,5,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,83,8.5,0]}], position: 1545, duration: 25 },
+                { id: "eid396", tween: [ "style", "${_txtCityName}", "clip", [0,83,0.375,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,83,5,0]}], position: 1570, duration: 40 },
                 { id: "eid371", tween: [ "style", "${_InfoBubbleBack}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0, easing: "easeOutQuad" },
                 { id: "eid372", tween: [ "style", "${_InfoBubbleBack}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0, easing: "easeOutQuad" },
                 { id: "eid379", tween: [ "style", "${_InfoBubbleBack}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0, easing: "easeOutQuad" },
                 { id: "eid353", tween: [ "transform", "${_InfoBubbleBack}", "scaleY", '1.2', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
                 { id: "eid302", tween: [ "transform", "${_InfoBubbleBack}", "scaleY", '0', { fromValue: '1.2'}], position: 1500, duration: 250, easing: "easeOutQuad" },
-                { id: "eid364", tween: [ "style", "${_txtMW}", "top", '295px', { fromValue: '260px'}], position: 1000, duration: 235 },
-                { id: "eid365", tween: [ "style", "${_txtMW}", "top", '260px', { fromValue: '295px'}], position: 1500, duration: 250 },
+                { id: "eid345", tween: [ "style", "${_txtCityName}", "top", '313px', { fromValue: '335px'}], position: 1000, duration: 235 },
+                { id: "eid363", tween: [ "style", "${_txtCityName}", "top", '330px', { fromValue: '313px'}], position: 1500, duration: 250 },
                 { id: "eid352", tween: [ "transform", "${_InfoBubbleBack}", "scaleX", '1.2', { fromValue: '0'}], position: 1000, duration: 235, easing: "easeOutQuad" },
                 { id: "eid301", tween: [ "transform", "${_InfoBubbleBack}", "scaleX", '0', { fromValue: '1.2'}], position: 1500, duration: 250, easing: "easeOutQuad" },
                 { id: "eid368", tween: [ "style", "${_txtMW}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
@@ -605,8 +616,8 @@ var symbols = {
                 { id: "eid370", tween: [ "style", "${_InfoBubble}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0, easing: "easeOutQuad" },
                 { id: "eid373", tween: [ "style", "${_InfoBubble}", "display", 'block', { fromValue: 'none'}], position: 1000, duration: 0, easing: "easeOutQuad" },
                 { id: "eid378", tween: [ "style", "${_InfoBubble}", "display", 'none', { fromValue: 'block'}], position: 1750, duration: 0, easing: "easeOutQuad" },
-                { id: "eid345", tween: [ "style", "${_txtCityName}", "top", '313px', { fromValue: '335px'}], position: 1000, duration: 235 },
-                { id: "eid363", tween: [ "style", "${_txtCityName}", "top", '330px', { fromValue: '313px'}], position: 1500, duration: 250 }            ]
+                { id: "eid364", tween: [ "style", "${_txtMW}", "top", '295px', { fromValue: '260px'}], position: 1000, duration: 235 },
+                { id: "eid365", tween: [ "style", "${_txtMW}", "top", '260px', { fromValue: '295px'}], position: 1500, duration: 250 }            ]
         }
     }
 },

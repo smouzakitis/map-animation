@@ -2,9 +2,9 @@
 {
 
 	"HTMLFileName":"map.html",
-	"Down-level-Default Timeline_playhead_ms":"0",
-	"pref__general__AutoKeyframeProperties":"false",
-	"City-Default Timeline_mark_ms":"-1",
+	"stage-Default Timeline_mark_ms":"-1",
+	"pref__general__AutoKeyframeProperties":"true",
+	"expanded:images/GreekMap.svg":"nil",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -31,17 +31,27 @@
    }}\
 }",
 	"expanded:images/GreekMap_Map_Only2.png":"nil",
-	"TransitionIdCounter":"380",
+	"stage-Default Timeline_playhead_ms":"840",
 	"City-Default Timeline_playhead_ms":"0",
 	"expanded:images/lines.png":"nil",
+	"City-Default Timeline_mark_ms":"-1",
 	"pref__general__TimelineShowGrid":"false",
-	"CompZoomFactor":"100",
 	"Lines_Flashing-Default Timeline_playhead_ms":"0",
 	"pref__general__FilterNonAnimatedElements":"false",
-	"expanded:images/GreekMap.svg":"nil",
-	"stage-Default Timeline_mark_ms":"-1",
+	"symbol_Lines_Flashing":{
+		"element_${_lines}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"}},
+	"TransitionIdCounter":"400",
+	"viewStartMs":"-25",
 	"pref__general__AutoKeyframePropertiesArmed":"true",
-	"stage-Default Timeline_playhead_ms":"840",
+	"symbol_Down-level":{
+		"defaultStageParentWidth":"550px",
+		"defaultStageParentHeight":"700px",
+		"dummyStageParentWidth":"550px",
+		"dummyStageParentHeight":"700px"},
 	"symbol_stage":{
 		"element_${_RectangleCopy4}":{
 			"timelineColor2":"0xd35d6e",
@@ -121,31 +131,31 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"},
-		"element_${_Ellipse2}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
-		"element_${_GreekMap_Map_Only}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
 		"element_${_Aliveri}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"},
-		"element_${_Pallini}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"true",
-			"timelineColor":"0xceaef4"},
+		"element_${_GreekMap_Map_Only}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
 		"element_${_Lagkadas}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"true",
 			"timelineColor":"0x91c767"},
+		"element_${_Pallini}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"true",
+			"timelineColor":"0xceaef4"},
+		"element_${_Grammi6}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
 		"element_${_LineCopy}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -181,16 +191,16 @@
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"false",
 			"timelineColor":"0xceaef4"},
-		"element_${_Grammi6}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
 		"element_${_Trikala}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"true",
 			"timelineColor":"0x008dc8"},
+		"element_${_Ellipse2}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
 		"element_${_LineCopy2}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
@@ -212,58 +222,58 @@
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
 			"timelineColor":"0xdb619d"},
-		"element_${_RectangleCopy6}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"timelineColor":"0xffd46d",
-			"timelineTreeOpened":"true",
-			"animationEnabled":"false"},
-		"element_${_Kardia}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"true",
-			"timelineColor":"0xfb657a"},
 		"element_${_Larimna}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"true",
 			"timelineColor":"0x00bda4"},
+		"element_${_Grammi8}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
 		"element_${_Grammi1_3}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
 			"timelineColor":"0x50bd82"},
+		"element_${_Lines_FlashingCopy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
 		"element_${_RectangleCopy}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
 			"animationEnabled":"false",
 			"timelineColor":"0x008dc8"},
-		"element_${_Megalopoli}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
+		"element_${_Lines_Flashing}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
-			"timelineColor":"0x63599f"},
+			"timelineColor":"0xdb619d"},
 		"element_${_RectangleCopy7}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
 			"timelineColor":"0xeedf79",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"false"},
-		"element_${_Lines_FlashingCopy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"true",
-			"timelineColor":"0xfb657a"},
 		"element_${_Larisa}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"true",
 			"timelineColor":"0x63599f"},
-		"element_${_Lines_Flashing}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
+		"element_${_Argyroupoli}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
 			"animationEnabled":"true",
-			"timelineColor":"0xdb619d"},
+			"timelineColor":"0xceaef4"},
+		"element_${_RectangleCopy6}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"timelineColor":"0xffd46d",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"false"},
 		"element_${_Grammi4_2}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
@@ -274,17 +284,17 @@
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"false",
 			"timelineColor":"0x00bda4"},
-		"element_${_Argyroupoli}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"true",
-			"timelineColor":"0xceaef4"},
 		"element_${_RectangleCopy3}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"timelineColor":"0xceaef4",
 			"timelineTreeOpened":"true",
 			"animationEnabled":"false"},
+		"element_${_Megalopoli}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
 		"element_${_Distomo}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
@@ -311,11 +321,11 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"true",
 			"timelineColor":"0xeedf79"},
-		"element_${_Grammi8}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
+		"element_${_Kardia}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
 		"element_${_GreekMap_Map_Only3}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
@@ -345,18 +355,14 @@
 			"locked":"true",
 			"animationEnabled":"false"}},
 	"PreloadAudio":"auto",
-	"symbol_Down-level":{
-		"defaultStageParentWidth":"550px",
-		"defaultStageParentHeight":"700px",
-		"dummyStageParentWidth":"550px",
-		"dummyStageParentHeight":"700px"},
-	"viewStartY":"187",
-	"pref__general__TimelineSnapEnabled":"true",
-	"pixelsPerMs":"0.2",
+	"CompZoomFactor":"100",
 	"StageZoomFactor":"200",
+	"pref__general__TimelineSnapEnabled":"false",
+	"pixelsPerMs":"0.2",
+	"viewStartY":"501",
 	"usedBOM":"false",
 	"nextElementColorIndex":"5",
-	"pref__general__GenerateSmoothTransitions":"false",
+	"pref__general__GenerateSmoothTransitions":"true",
 	"symbol_City":{
 		"element_${_txtCityName}":{
 			"timelineColor2":"0x326a96",
@@ -374,11 +380,6 @@
 			"timelineColor":"0x00a096",
 			"animationEnabled":"true",
 			"invisible":"false"},
-		"element_${_text_MW}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
 		"element_${_cityPoint}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
@@ -386,6 +387,11 @@
 			"timelineTreeOpened":"true",
 			"animationEnabled":"true",
 			"invisible":"false"},
+		"element_${_text_MW}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
 		"element_${_InfoBubble}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
@@ -401,10 +407,5 @@
 			"animationEnabled":"false",
 			"timelineColor3":"0x456a55",
 			"timelineColor":"0x50bd82"}},
-	"symbol_Lines_Flashing":{
-		"element_${_lines}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"true",
-			"timelineColor":"0x63599f"}},
+	"Down-level-Default Timeline_playhead_ms":"0",
 	"expanded:images/GreekMap_Map_Only.png":"nil"}
